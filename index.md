@@ -24,10 +24,15 @@ Repositorio en Github con permisos necesarios para clonar, cumpliendo las siguie
 ```markdown
   1. Proyecto en cualquier lenguaje de programación que cumpla estos items:
       - Uso de librerias que manejen desarrollo en BDD y lenguaje Gherkin (Cucumber, Specflow, JBehave, etc), librerias de test sobre API y UI (RestAssured,                   Restsharp, pytest, Selenium, Cypress, Watir, etc)
-      - Automatizar documentando en Gherkin (usando Cucumber) e implementar un POST, un GET y un DELETE creando scenarios de prueba sobre las APIs publicadas en esta  URL: [Basic writing and formatting syntax](https://reqres.in/) (Automatización en API)
+      - Automatizar documentando en Gherkin (usando Cucumber) e implementar un POST, un GET y un DELETE creando scenarios de prueba sobre las APIs publicadas en esta  URL: https://reqres.in/ (Automatización en API)
 
   2. Automatizar documentando en Gherkin (usando cucumber) e implementar 3 scenarios sobre esta pagina https://eduardo-thrash.github.io/EasyManagment/ (Automatización      en Web)
 ```
 
 ### Enlaces de apoyo
 
+    - https://serenity-bdd.info/
+    - https://rest-assured.io/
+    - https://maven.apache.org/
+    - https://cucumber.io/
+    
