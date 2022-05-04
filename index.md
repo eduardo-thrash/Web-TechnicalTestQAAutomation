@@ -1,29 +1,35 @@
-## Welcome to GitHub Pages
+## Technical Automation Test
 
-You can use the [editor on GitHub](https://github.com/eduardo-thrash/TechnicalTestQAAutomation/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+Por favor leer detenidamente las instrucciones para desarrollar adecuadamente la prueba:
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+La prueba se puede realizar de dos maneras las cuales serán aclaradas acontinuación:
 
-### Markdown
+### Opción 1 Recomendada (Especificamente con Java y tecnologias compatibles):
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Compartir un repositorio en Github con permisos para clonar que cumpla estas especificaciones:
 
 ```markdown
-Syntax highlighted code block
+1. Proyecto de Java (tipo maven) que cumpla estos items:
+    - Uso de librerias o dependencias de Cucumber, Rest Assured o Serenity BDD y Selenium para UI
+    - Automatizar documentando en Gherkin (usando Cucumber) e implementar un POST, un GET y un DELETE creando scenarios de prueba sobre las APIs publicadas en esta     URL: [Basic writing and formatting syntax](https://reqres.in/)  (Automatización en API)
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
+2. Automatizar documentando en Gherkin (usando cucumber) e implementar 3 scenarios sobre esta pagina https://eduardo-thrash.github.io/EasyManagment/ (Automatización en    Web)
 
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
+```
+
+### Opción 2 (Tecnologias de preferencia):
+
+Compartir un repositorio en Github con permisos para clonar que cumpla estas especificaciones:
+
+```markdown
+  1. Proyecto en cualquier lenguaje de programación que cumpla estos items:
+      - Uso de librerias que manejen desarrollo en BDD y lenguaje Gherkin (Cucumber, Specflow, JBehave, etc) y librerias de test sobre API y UI (RestAssured,                   Restsharp, pytest, Selenium, Cypress, Watir, etc)
+      - Automatizar documentando en Gherkin (usando Cucumber) e implementar un POST, un GET y un DELETE creando scenarios de prueba sobre las APIs publicadas en esta  URL: [Basic writing and formatting syntax](https://reqres.in/) (Automatización en API)
+
+  2. Automatizar documentando en Gherkin (usando cucumber) e implementar 3 scenarios sobre esta pagina https://eduardo-thrash.github.io/EasyManagment/ (Automatización      en Web)
 ```
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
