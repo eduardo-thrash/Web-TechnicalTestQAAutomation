@@ -35,4 +35,3 @@ Repositorio en Github con permisos necesarios para clonar, cumpliendo las siguie
     - https://rest-assured.io/
     - https://maven.apache.org/
     - https://cucumber.io/
-    
